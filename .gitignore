@@ -37,4 +37,4 @@ override.tf.json
 terraform.rc
 
 # GCP identity file
-GCP/gcp-identity.json
+gcp-identity.json
