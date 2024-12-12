@@ -1,5 +1,5 @@
 /*
-!.gitignore
-!Mixto/setup-api-docker.tpl
-!Mixto/setup-app-docker.tpl
-!Mixto/install_mysql.sh
+!/.gitignore
+!/Mixto/setup-api-docker.tpl
+!/Mixto/setup-app-docker.tpl
+!/Mixto/install_mysql.sh
