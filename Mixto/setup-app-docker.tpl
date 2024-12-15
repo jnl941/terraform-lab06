@@ -31,4 +31,6 @@ chmod +x /usr/local/bin/docker-compose
 #   - BOOK_API_HOST=<direccion-ip-fija-instancia-API>  
 # **********************
 
+git clone https://github.com/jnl941/terraform-lab06.git
+docker compose -f terraform-lab06/Mixto/docker-compose-app.yml up
 exit 0

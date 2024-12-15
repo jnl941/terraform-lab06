@@ -15,7 +15,7 @@ services:
   api:
     image: ualmtorres/books-api:v0
     environment:
-      - TUTORIAL_HOST=10.0.0.1
+      - TUTORIAL_HOST=10.0.0.4
       - TUTORIAL_PORT=3306
       - TUTORIAL_USER=sg
       - TUTORIAL_PASSWORD=my_password

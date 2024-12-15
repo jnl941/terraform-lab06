@@ -35,4 +35,6 @@ chmod +x /usr/local/bin/docker-compose
 #   - TUTORIAL_DATABASE=SG 
 # **********************
 
+git clone https://github.com/jnl941/terraform-lab06.git
+docker compose -f terraform-lab06/Mixto/docker-compose-api.yml up
 exit 0
