@@ -5,4 +5,5 @@
 !/Mixto/setup-api-docker.tpl
 !/Mixto/setup-app-docker.tpl
 !/Mixto/install_mysql.sh
+!/Mixto/sginit.sql
 !/Mixto/docker-compose*
