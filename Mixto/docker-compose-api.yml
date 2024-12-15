@@ -21,4 +21,4 @@ services:
       - TUTORIAL_PASSWORD=my_password
       - TUTORIAL_DATABASE=SG 
     ports:
-      - 3000:80
+      - 80:3000
