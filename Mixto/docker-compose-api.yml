@@ -1,0 +1,24 @@
+# *** YOUR CODE HERE ***
+# Lanzar un contenedor de esta forma:
+# - Modo detached a partir de la imagen ualmtorres/books-api:v0
+# - Mapear el puerto 80 con el puerto 3000 del contenedor
+# - Configurar estas variables de entorno
+#   - TUTORIAL_HOST=<direccion-ip-fija-instancia-MySQL> 
+#   - TUTORIAL_PORT=3306 
+#   - TUTORIAL_USER=sg
+#   - TUTORIAL_PASSWORD=my_password
+#   - TUTORIAL_DATABASE=SG 
+# **********************
+
+
+services:
+  api:
+    image: ualmtorres/books-api:v0
+    environment:
+      - TUTORIAL_HOST=10.0.0.1
+      - TUTORIAL_PORT=3306
+      - TUTORIAL_USER=sg
+      - TUTORIAL_PASSWORD=my_password
+      - TUTORIAL_DATABASE=SG 
+    ports:
+      - 3000:80
