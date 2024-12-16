@@ -32,5 +32,5 @@ chmod +x /usr/local/bin/docker-compose
 # **********************
 
 git clone https://github.com/jnl941/terraform-lab06.git
-docker compose -f terraform-lab06/Mixto/docker-compose-app.yml up
+docker compose -f terraform-lab06/Mixto/docker-compose-web.yml up
 exit 0
